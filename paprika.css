@@ -1,9 +1,11 @@
 body{
     background-color: #FFEFD5;
     color: #8B4513;
+    background-image: url(//Paprika-main/Képek/paprikahatter.png);
 }
-header{
-    background-image: url(/Képek/paprikahatter.png);
-    background-repeat: no-repeat;
-    background-size: 1400px;
+table{
+    width: 300px;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
