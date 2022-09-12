@@ -2,10 +2,25 @@ body{
     background-color: #FFEFD5;
     color: #8B4513;
     background-image: url(//Paprika-main/Képek/paprikahatter.png);
+    color: #8B4513;
+    width: 1000px;
+    margin: auto;
+    
 }
 table{
     width: 300px;
-    border: 1px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    border-collapse: collapse;
+}
+table, tr, th{
+    border: 1px solid black;
+}
+.header-image{
+    background-image: url(/Képek/sok.png);
+    background-size: auto;
+    padding: 1rem;
+}
+.vonat{
+    display: flex;
+    flex-direction: row;
 }
