@@ -11,6 +11,7 @@ table{
     width: 300px;
     margin: auto;
     border-collapse: collapse;
+
 }
 table, tr, th{
     border: 1px solid black;
@@ -23,4 +24,16 @@ table, tr, th{
 .vonat{
     display: flex;
     flex-direction: row;
+}
+li{
+    border: 1px solid lightblue;
+    background-color: white;
+    font-weight: bold;
+}
+h2, p{
+    padding-left: 100px;
+    
+}
+ul{
+    width: 200px;
 }
