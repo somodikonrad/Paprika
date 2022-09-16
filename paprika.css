@@ -15,6 +15,7 @@ table{
 }
 table, tr, th{
     border: 1px solid black;
+    margin: 0 0 0 37%;
 }
 .header-image{
     background-image: url(/Képek/sok.png);
@@ -36,4 +37,11 @@ h2, p{
 }
 ul{
     width: 200px;
+
+}
+.paprikakmenu{
+    padding-left: 30px;
+}
+.tabla{
+    height: 200px;
 }
