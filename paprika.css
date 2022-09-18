@@ -5,10 +5,10 @@ body{
     color: #8B4513;
     width: 1000px;
     margin: auto;
-    
 }
 table{
     width: 300px;
+    height: 300px;
     margin: auto;
     border-collapse: collapse;
 
@@ -27,7 +27,7 @@ table, tr, th{
     flex-direction: row;
 }
 li{
-    border: 1px solid lightblue;
+    border: 2px solid rgb(78, 202, 243);
     background-color: white;
     font-weight: bold;
 }
@@ -44,4 +44,7 @@ ul{
 }
 .tabla{
     height: 200px;
+}
+th{
+    margin-right: 5px;
 }
