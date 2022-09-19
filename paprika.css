@@ -2,9 +2,9 @@ body{
     background-color: #FFEFD5;
     color: #8B4513;
     background-image: url(//Paprika-main/Képek/paprikahatter.png);
-    color: #8B4513;
-    width: 1000px;
+    width: 70%;
     margin: auto;
+    overflow: auto;
 }
 table{
     width: 300px;
@@ -40,7 +40,7 @@ ul{
 
 }
 .paprikakmenu{
-    padding-left: 30px;
+    padding-left: 20%;
 }
 .tabla{
     height: 200px;
