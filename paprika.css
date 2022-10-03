@@ -2,9 +2,9 @@ body{
     background-color: #FFEFD5;
     color: #8B4513;
     background-image: url(//Paprika/Képek/paprikahatter.png);
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
-    overflow: auto;
+
 }
 table{
     width: 300px;
@@ -50,14 +50,21 @@ ul{
 th{
     margin-right: 5px;
 }
-.top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    color: #FFF;
-    height: 50px;
-    padding: 1em;
-  }
+@media screen and (max-width: 1000px){
+    #vonat {
+        flex-wrap: wrap;
+    }
+    
+    #menu {
+        margin: auto;
+        width: 100%;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu ul li {
+        display: inline-block;
+    }
+}
